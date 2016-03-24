@@ -28,3 +28,15 @@ the other terminal:
 	$ arm-none-eabi-gdb -command=run.gdb
 
 7. Use GDB to compare QEMU-STM32 with  your ARMv7M-ISS
+
+8.Use cgdb to debug(GUI debug)
+
+	$ sudo apt-get install cgdb
+	
+on step6 use 
+
+	$ cgdb -d arm-none-eabi-gdb -command=run.gdb
+	
+instead of 
+
+	$ arm-none-eabi-gdb -command=run.gdb
