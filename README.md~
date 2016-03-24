@@ -23,4 +23,4 @@ one terminal
 the other terminal:
 	$ arm-none-eabi-gdb -command=run.gdb
 
-7. Use GDB to compare QEMU-STM32 with  your ARMv7M-ISS
+7. Watch the register change  and verify your ARMv7M-ISS
