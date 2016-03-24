@@ -1,6 +1,6 @@
 # ISS_VERIFY-CORTEX_M-
 
-how to run your own application in QEMU-STM32(with GDB)
+##how to run your own application in QEMU-STM32(with GDB)
 
 1. follow this website to set up QEMU-STM32 environment http://wiki.csie.ncku.edu.tw/embedded/Lab39
 
@@ -27,7 +27,7 @@ the other terminal:
 
 	$ arm-none-eabi-gdb -command=run.gdb
 
-## Use GDB to compare QEMU-STM32 with  your ARMv7M-ISS
+ Use GDB to compare QEMU-STM32 with  your ARMv7M-ISS
 
 ## Use cgdb to debug(GUI debug)
 
