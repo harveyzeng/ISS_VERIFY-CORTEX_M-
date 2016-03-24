@@ -9,6 +9,7 @@ how to run your own application in QEMU-STM32(with GDB)
 3. add two lines in the makefile
 
 	demos/test_m4/main.elf: demos/test_m4/main.c
+	
 	demos/test_m4/main.elf: $(COMMON_FILES)
 		$(CC) $(CFLAGS_LINK) -Idemos/test_m4/ -o $@ $^
 
