@@ -21,7 +21,7 @@ how to run your own application in QEMU-STM32(with GDB)
 7. 
 one terminal
 
-	$  ../qemu_stm32/arm-softmmu/qemu-system-arm -M stm32-p103 -gdb tcp::3333 -S -kernel demos/test_m4/main.bin  
+	$ ../qemu_stm32/arm-softmmu/qemu-system-arm -M stm32-p103 -gdb tcp::3333 -S -kernel demos/test_m4/main.bin  
 
 the other terminal:
 
