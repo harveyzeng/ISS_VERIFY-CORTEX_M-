@@ -1,13 +1,16 @@
 # ISS_VERIFY-CORTEX_M-
 
+
 ##how to run your own application in QEMU-STM32(with GDB)
 
 1. follow this website to set up QEMU-STM32 environment http://wiki.csie.ncku.edu.tw/embedded/Lab39
 
 2. add test_m4 directory into stm32_p103_demos/demos directory
 
-3. add two lines in the makefile
+3. add three lines in the makefile
 
+	DEMOS += test_m4
+	
 	demos/test_m4/main.elf: demos/test_m4/main.c
 	
 	demos/test_m4/main.elf: $(COMMON_FILES)
@@ -40,3 +43,8 @@ on step6 use
 instead of 
 
 	$ arm-none-eabi-gdb -command=run.gdb
+
+
+
+Author	Bo-Xiang, Zeng. NCKU caslab. an4001022@gmail.com
+Date		2016.03.26
